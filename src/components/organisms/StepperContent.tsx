@@ -49,7 +49,7 @@ export default function StepperContent({ dataStep, group, groupColor, currentSte
           >
             <span className="text-sm font-medium mb-1">{groupName}</span>
             <div className="flex items-center w-full">
-              {stepIndexes.map((stepIdx, i) => (
+              {stepIndexes.map((stepIdx) => (
                 <StepperItem
                   key={stepIdx}
                   title={dataStep[stepIdx].title}
