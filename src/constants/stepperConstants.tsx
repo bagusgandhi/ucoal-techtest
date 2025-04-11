@@ -14,8 +14,3 @@ export const stepperData = [
   { title: "Penandatanganan", icon: <SignatureOutlined /> },
   { title: "Selesai", icon: <CheckOutlined /> },
 ];
-
-export const groupColors = {
-  Penyusunan: "bg-blue-100",
-  Pembahasan: "bg-green-100",
-};
