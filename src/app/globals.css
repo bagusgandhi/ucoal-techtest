@@ -25,3 +25,7 @@ body {
     text-wrap: balance;
   }
 }
+
+.container-box {
+  @apply lg:px-64 px-4;
+}
