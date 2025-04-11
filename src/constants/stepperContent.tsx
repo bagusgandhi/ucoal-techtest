@@ -1,4 +1,4 @@
-import { CheckOutlined, FileDoneOutlined, FileExcelOutlined, FlagOutlined, SignatureOutlined, TeamOutlined, UserOutlined } from "@ant-design/icons";
+import { CheckOutlined, FileDoneOutlined, FileExcelOutlined, FlagOutlined, SignatureOutlined, TeamOutlined } from "@ant-design/icons";
 
 export const stepperGroup = {
   Penyusunan: [1, 2, 3],
@@ -15,7 +15,7 @@ export const stepperData = [
   { title: "Selesai", icon: <CheckOutlined /> },
 ];
 
-export const groupColors: any = {
+export const groupColors = {
   Penyusunan: "bg-blue-100",
   Pembahasan: "bg-green-100",
 };
