@@ -5,12 +5,16 @@ import { ArrowRightOutlined } from "@ant-design/icons";
 import { Button } from "antd";
 import {
   stepperData,
-  groupColors,
   stepperGroup,
-} from "@/constants/stepperContent";
+} from "@/constants/stepperConstants";
 
 export default function Home() {
   const [state, dispatch] = useImmerReducer(stateReducer, initialState);
+
+  const groupColors = {
+    Penyusunan: "bg-blue-100",
+    Pembahasan: "bg-green-100",
+  };
 
   return (
     <>
