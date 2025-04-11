@@ -55,10 +55,10 @@ const initialState: initialStateType = {
   stepLength: 7,
 };
 
-function stateReducer(draft: any, action: any) {
+function stateReducer(draft: initialStateType, action: { type: string; payload: number | string | boolean | undefined | null }) {
   switch (action.type) {
     case "set step":
-      draft.step = action.payload;
+      draft.step = action.payload as number;
       break;
   }
 }
